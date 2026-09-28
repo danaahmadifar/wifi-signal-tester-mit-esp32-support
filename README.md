@@ -3,10 +3,10 @@
 Ein modulares Mess- und Diagnosesystem zur Analyse von WLAN-Signalen mit einem ESP32 und einer Python-Desktop-Applikation (PyQt6). Das System erfasst Signalstärke (RSSI), SNR, Retry-Rate und Modulationsarten im passiven 802.11-Sniffer-Modus, führt aktive Netzwerk-Benchmarks durch (DHCP, DNS, Dual-Ping) und erstellt Signal-Heatmaps auf Grundrissen. Die Datenübertragung erfolgt wahlweise über Bluetooth Classic (SPP) oder per USB-Kabel.
 
 ### 1. Signal-Analyzer
-<img width="1338" height="867" alt="image" src="https://github.com/user-attachments/assets/8b7d6b2a-6d97-45f9-bc63-f01404285d79" />
+<img width="1334" height="862" alt="sig" src="https://github.com/user-attachments/assets/d263d0d8-7be4-43a4-b891-1078d5b94ebf" />
 
 ### 2. Netzwerk-Diagnose
-<img width="1334" height="865" alt="image" src="https://github.com/user-attachments/assets/99202cc6-9e22-4592-8611-673e7977777b" />
+<img width="1336" height="868" alt="diag" src="https://github.com/user-attachments/assets/f6cc61ab-7753-4c64-8bff-cc95f37e1428" />
 
 ### 3. Grundriss & Heatmap
 <img width="1335" height="865" alt="image" src="https://github.com/user-attachments/assets/c545a3da-8bc6-40c9-9b84-0d41bb2e31b0" />
