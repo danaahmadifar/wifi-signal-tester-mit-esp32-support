@@ -4,8 +4,10 @@ Ein modulares Mess- und Diagnosesystem zur Analyse von WLAN-Signalen mit einem E
 
 ### 1. Signal-Analyzer
 <img width="1338" height="867" alt="image" src="https://github.com/user-attachments/assets/8b7d6b2a-6d97-45f9-bc63-f01404285d79" />
+
 ### 2. Netzwerk-Diagnose
 <img width="1334" height="865" alt="image" src="https://github.com/user-attachments/assets/99202cc6-9e22-4592-8611-673e7977777b" />
+
 ### 3. Grundriss & Heatmap
 <img width="1335" height="865" alt="image" src="https://github.com/user-attachments/assets/c545a3da-8bc6-40c9-9b84-0d41bb2e31b0" />
 
