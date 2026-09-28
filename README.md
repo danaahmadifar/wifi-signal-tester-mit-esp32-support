@@ -10,7 +10,7 @@ Ein modulares Mess- und Diagnosesystem zur Analyse von WLAN-Signalen mit einem E
 
 ### 3. Grundriss & Heatmap
 <img width="1335" height="865" alt="image" src="https://github.com/user-attachments/assets/c545a3da-8bc6-40c9-9b84-0d41bb2e31b0" />
-
+Diese Aufnahmen wurden mit einem mit BT verbundenen ESP32 durchgeführt.
 ---
 
 ## Verwendete Hardware
