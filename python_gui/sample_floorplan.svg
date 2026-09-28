@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="1000" height="700">
+  <defs>
+    <style>
+      .wall { stroke: #e0e0e0; stroke-width: 5; fill: #181818; }
+      .inner-wall { stroke: #b0b0b0; stroke-width: 3; fill: none; }
+      .door { stroke: #60a5fa; stroke-width: 2; stroke-dasharray: 4,4; fill: none; }
+      .window { stroke: #38bdf8; stroke-width: 4; fill: none; }
+      .label { fill: #888888; font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; font-weight: 600; text-anchor: middle; }
+      .sublabel { fill: #555555; font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="700" fill="#0d0d0d"/>
+
+  <!-- Außenwände der Wohnung -->
+  <rect x="50" y="50" width="900" height="600" class="wall" rx="4"/>
+
+  <!-- Raumaufteilung -->
+  <!-- Flur / Eingangsbereich Mitte unten -->
+  <line x1="380" y1="50" x2="380" y2="420" class="inner-wall" />
+  <line x1="680" y1="50" x2="680" y2="420" class="inner-wall" />
+  <line x1="380" y1="420" x2="680" y2="420" class="inner-wall" />
+
+  <!-- Wohnzimmer (Links) -->
+  <line x1="50" y1="360" x2="380" y2="360" class="inner-wall" />
+
+  <!-- Schlafzimmer (Rechts oben) -->
+  <line x1="680" y1="340" x2="950" y2="340" class="inner-wall" />
+
+  <!-- Bad & Küche (Rechts unten & Mitte) -->
+  <line x1="500" y1="420" x2="500" y2="650" class="inner-wall" />
+
+  <!-- Fenster -->
+  <line x1="120" y1="50" x2="280" y2="50" class="window" />
+  <line x1="120" y1="650" x2="280" y2="650" class="window" />
+  <line x1="750" y1="50" x2="880" y2="50" class="window" />
+  <line x1="950" y1="120" x2="950" y2="260" class="window" />
+  <line x1="750" y1="650" x2="880" y2="650" class="window" />
+
+  <!-- Türen / Durchgänge -->
+  <line x1="380" y1="200" x2="380" y2="260" class="door" />
+  <line x1="680" y1="180" x2="680" y2="240" class="door" />
+  <line x1="520" y1="420" x2="580" y2="420" class="door" />
+  <line x1="680" y1="500" x2="680" y2="560" class="door" />
+
+  <!-- Raum-Beschriftungen -->
+  <text x="215" y="190" class="label">WOHNZIMMER</text>
+  <text x="215" y="215" class="sublabel">28 qm</text>
+
+  <text x="215" y="500" class="label">ARBEITSZIMMER / BÜRO</text>
+  <text x="215" y="525" class="sublabel">18 qm</text>
+
+  <text x="530" y="220" class="label">FLUR / DIELE</text>
+  <text x="530" y="245" class="sublabel">14 qm</text>
+
+  <text x="815" y="190" class="label">SCHLAFZIMMER</text>
+  <text x="815" y="215" class="sublabel">22 qm</text>
+
+  <text x="440" y="540" class="label">BAD / WC</text>
+  <text x="440" y="565" class="sublabel">8 qm</text>
+
+  <text x="740" y="500" class="label">KÜCHE / ESSBEREICH</text>
+  <text x="740" y="525" class="sublabel">20 qm</text>
+
+  <!-- Router Standort Markierung / Empfehlung -->
+  <circle cx="530" cy="90" r="10" fill="#3b82f6" opacity="0.6"/>
+  <circle cx="530" cy="90" r="4" fill="#ffffff"/>
+  <text x="530" y="125" class="sublabel" fill="#60a5fa">ROUTER-STANDORT</text>
+</svg>
